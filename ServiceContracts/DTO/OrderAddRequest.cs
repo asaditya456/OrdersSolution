@@ -41,7 +41,7 @@ namespace ServiceContracts.DTO
         /// <summary>
         /// Gets or sets the list of order items associated with the order.
         /// </summary>
-        public List<OrderItemAddRequest> OrderItems { get; set; } = new List<OrderItemAddRequest>();
+        public List<OrderItemAddRequest> OrderItems { get; set; } = new List<OrderItemAddRequest> { };
 
 
         /// <summary>
